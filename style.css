@@ -1073,3 +1073,34 @@ footer hr{
     color:#94a3b8;
 
 }
+.btn{
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 25px rgba(79,70,229,.35);
+}
+.card img{
+    transition:.5s;
+}
+
+.card:hover img{
+    transform:scale(1.08);
+}
+.card{
+    transition:.35s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+.secondary{
+    background:transparent;
+    border:2px solid #4f46e5;
+}
+
+.secondary:hover{
+    background:#4f46e5;
+}
